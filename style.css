@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Poppins:wght@400;500;600;700;800;900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Work Sans", sans-serif;
+}
+
+.button-primary {
+    color: white;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    cursor: pointer;
+    background: rgb(255, 144, 14);
+    padding: 20px 25px;
+    border: none;
+}
+
+/* header styles start */
+
+header {
+    background-color: bisque;
+    padding: 50px 240px;
+    /* margin: 50px 240px; */
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.nav-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+
+    color: black;
+}
+
+/* banner styles */
+.banner-content {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-title {
+    color: rgb(19, 19, 19);
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.banner-description {
+    color: rgb(114, 114, 114);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.banner img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* responsive styles */
+@media screen and (max-width:576px) {
+    header {
+        padding: 20px;
+    }
+
+    
+    nav {
+        flex-direction: column;
+    }
+
+    
+
+}
+
+@media screen and (min-width:576px) and (max-width:960px) {
+    
+
+    header {
+        padding: 50px;
+    }
+
+    nav {
+        flex-direction: column;
+
+    }
+
+    
+}
